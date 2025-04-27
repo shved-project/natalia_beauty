@@ -1,0 +1,26 @@
+[
+	{
+		"text": "Главная",
+		"link": "home"
+	},
+	{
+		"text": "Обо мне",
+		"link": "about-me"
+	},
+	{
+		"text": "Прайс",
+		"link": "price"
+	},
+	{
+		"text": "Скидки",
+		"link": "discounts"
+	},
+	{
+		"text": "Отзывы",
+		"link": "reviews"
+	},
+	{
+		"text": "Контакты",
+		"link": "contacts"
+	}
+]
