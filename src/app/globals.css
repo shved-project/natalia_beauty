@@ -8,4 +8,10 @@
     --color-pink-light: #ffe8eb;
     --color-yellow: #ffd421;
     --color-green: #829e94;
+
+    --text-base: 1rem;
+    --text-sm: 1.125rem;
+    --text-md: 1.5rem;
+    --text-lg: 3rem;
+    --text-xl: 6rem;
 }

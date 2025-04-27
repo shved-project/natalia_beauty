@@ -13,8 +13,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='ru'>
-			<body className={poppins.className}>{children}</body>
+		<html lang='ru' className='text-[16px]'>
+			<body className={`${poppins.className} font-normal`}>{children}</body>
 		</html>
 	);
 }
