@@ -1,29 +1,29 @@
 import localFont from "next/font/local";
 
-export const poppins = localFont({
+export const montserrat = localFont({
 	src: [
 		{
-			path: "./fonts/Poppins-Light.woff2",
+			path: "./fonts/Montserrat-Light.woff2",
 			weight: "300",
 			style: "normal",
 		},
 		{
-			path: "./fonts/Poppins-Regular.woff2",
+			path: "./fonts/Montserrat-Regular.woff2",
 			weight: "400",
 			style: "normal",
 		},
 		{
-			path: "./fonts/Poppins-Medium.woff2",
+			path: "./fonts/Montserrat-Medium.woff2",
 			weight: "500",
 			style: "normal",
 		},
 		{
-			path: "./fonts/Poppins-SemiBold.woff2",
+			path: "./fonts/Montserrat-SemiBold.woff2",
 			weight: "600",
 			style: "normal",
 		},
 		{
-			path: "./fonts/Poppins-Bold.woff2",
+			path: "./fonts/Montserrat-Bold.woff2",
 			weight: "700",
 			style: "normal",
 		},

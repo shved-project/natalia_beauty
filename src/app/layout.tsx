@@ -1,6 +1,6 @@
 import type {Metadata} from "next";
 import "./globals.css";
-import {poppins} from "./fonts";
+import {montserrat} from "./fonts";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='ru' className='text-[16px]'>
-			<body className={`${poppins.className} font-normal`}>{children}</body>
+			<body className={`${montserrat.className} font-normal`}>{children}</body>
 		</html>
 	);
 }
