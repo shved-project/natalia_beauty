@@ -25,7 +25,7 @@ const Header = () => {
 
 	return (
 		<header
-			className={`flex items-center justify-center bg-white fixed w-full h-[100px] transition-shadow duration-200 ${
+			className={`flex items-center justify-center bg-white fixed z-50 top-0 left-0 w-full h-[100px] transition-shadow duration-200 ${
 				hasScrolled ? "shadow-lg" : "shadow-none"
 			}`}
 		>
@@ -78,15 +78,17 @@ const Header = () => {
 									)}
 								></div>
 							</button>
-							<div className='fixed w-[100vw] min-h-[100vh] top-0 left-0 z-40'>
+							<div
+								className={`fixed w-[100vw] min-h-[100vh] top-0 left-0 ${
+									isOpenedBurger ? "pointer-events-auto" : "pointer-events-none"
+								}`}
+							>
 								<div
 									onClick={() => setIsOpenedBurger((prev) => !prev)}
-									className={clsx(
-										"absolute inset-0 transition-colors duration-300",
-										isOpenedBurger
-											? "bg-black-opacity pointer-events-auto"
-											: "bg-[#00000000] pointer-events-none"
-									)}
+									className={`
+										absolute inset-0 transition-colors duration-300 ${isOpenedBurger ? "bg-black-opacity" : "bg-[#00000000]"}
+										
+									`}
 								></div>
 								<nav
 									className={clsx(
