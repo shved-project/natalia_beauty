@@ -26,7 +26,7 @@ const AboutMe = async () => {
 								/>
 							</div>
 							<div className='max-sm:text-center'>
-								<h3 className='font-bold text-[1.75rem]'>Обо мне</h3>
+								<h2 className='font-bold text-[1.75rem]'>Обо мне</h2>
 								<p className='font-normal '>
 									Творчество и красота - мой стиль жизни. Соцсети расскажут больше
 								</p>
