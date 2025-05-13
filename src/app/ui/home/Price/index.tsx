@@ -23,7 +23,6 @@ const Price = async () => {
 	});
 
 	const servicesData: ServiceData[] = services.data.data;
-	console.log(servicesData);
 
 	return (
 		<section>
