@@ -1,7 +1,7 @@
 "use client";
 
 import {useEffect, useState} from "react";
-import Logo from "./Logo";
+import Logo from "../global-components/Logo";
 import Section from "./Section";
 import nav from "@/app/ui/nav.json";
 import clsx from "clsx";
