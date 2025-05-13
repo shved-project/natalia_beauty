@@ -8,7 +8,7 @@ const WhyChooseMe = () => {
 	return (
 		<section className='bg-white'>
 			<Section>
-				<SectionTitle>Скидка 10% на первое посещение</SectionTitle>
+				<SectionTitle>Почему вам стоит выбрать меня?</SectionTitle>
 				<div className='flex justify-between mt-[48px] max-lg:flex-col max-lg:items-center max-lg:gap-15'>
 					<Article
 						icon={<IoCheckmarkDoneSharp size={88} />}
