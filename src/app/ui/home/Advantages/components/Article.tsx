@@ -9,11 +9,10 @@ interface ArticleProps {
 
 const Article = ({imageSrc, title, subtitle}: ArticleProps) => {
 	return (
-		<article className='max-w-[327px]'>
-			{/* <Image alt='' src='/images/sections/advantages/advantage-1.jpg' width={327} height={392} /> */}
+		<article className='max-w-[327px] max-xl:max-w-[312px] max-lg:max-w-[350px]'>
 			<Image alt='' src={imageSrc} width={327} height={392} />
-			<div className='flex gap-[20px] mt-[27px]'>
-				<div className='w-[20px] bg-yellow' />
+			<div className='flex gap-[20px] mt-[27px] max-lg:flex-col-reverse max-lg:text-center'>
+				<div className='w-[11px] h-[183px] shrink-0 bg-yellow  max-lg:h-[20px] max-lg:w-full' />
 				<div>
 					<ArticleTitle smallText>{title}</ArticleTitle>
 					<p className='font-medium mt-[15px]'>{subtitle}</p>

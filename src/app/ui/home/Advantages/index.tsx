@@ -7,7 +7,7 @@ const Advantages = () => {
 		<section className='shadow-[4px_4px_24px_#29292967] bg-white'>
 			<Section paddingY={105}>
 				<SectionTitle>Что вы хотите получить?</SectionTitle>
-				<div className='flex justify-between mt-[44px]'>
+				<div className='flex justify-between mt-[44px] max-lg:flex-col max-lg:items-center max-lg:gap-20'>
 					<Article
 						imageSrc='/images/sections/advantages/advantage-1.jpg'
 						title='Быстрый и красивый результат'
