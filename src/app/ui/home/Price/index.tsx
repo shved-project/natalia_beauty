@@ -28,11 +28,13 @@ const Price = async () => {
 	return (
 		<section>
 			<Section paddingY={0}>
-				<header className='flex items-center justify-between border-t-2 border-b-2 px-[36px] py-[15px]'>
+				<header className='flex items-center justify-between border-t-2 border-b-2 px-[36px] py-[15px] max-sm:px-0 max-sm:flex-col max-sm:gap-2'>
 					<SectionTitle textCenter={false}>Прайс</SectionTitle>
-					<p className='font-light text-right max-w-[210px]'>Неизменное качество по приемлемым ценам!</p>
+					<p className='font-light text-right max-w-[210px] max-sm:text-center'>
+						Неизменное качество по приемлемым ценам!
+					</p>
 				</header>
-				<div className='grid grid-cols-4 gap-[40px] mt-[72px]'>
+				<div className='grid grid-cols-4 gap-[40px] mt-[72px] max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-[60px]'>
 					{servicesData.map((service) => {
 						return (
 							<Service
