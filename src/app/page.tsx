@@ -1,6 +1,7 @@
 import Header from "./ui/global-sections/Header";
 import AboutMe from "./ui/home/AboutMe";
 import Advantages from "./ui/home/Advantages";
+import Discount from "./ui/home/Discount";
 import WhyChooseMe from "./ui/home/WhyChooseMe";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
 				<AboutMe />
 				<WhyChooseMe />
 				<Advantages />
+				<Discount />
 			</main>
 		</>
 	);
