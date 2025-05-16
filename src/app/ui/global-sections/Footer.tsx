@@ -3,7 +3,7 @@ import Section from "./Section";
 
 const Footer = () => {
 	return (
-		<footer className='mt-[228px] bg-[#000000] text-white max-lg:mt-[80px]'>
+		<footer className='mt-[228px] bg-[#000000] text-white max-lg:mt-[80px] rounded-[56px_56px_0_0]'>
 			<Section paddingY={65}>
 				<div className='flex justify-between gap-5 max-md:flex-col max-md:gap-10'>
 					<div className='flex flex-col max-w-[460px] shrink-0 max-md:max-w-full max-md:text-center'>
@@ -30,7 +30,7 @@ const Footer = () => {
 					</div>
 					<div
 						style={{position: "relative", overflow: "hidden"}}
-						className='max-w-[588px] w-full h-[230px] max-md:max-w-full'
+						className='max-w-[588px] w-full h-[230px] max-md:max-w-full rounded-[12px]'
 					>
 						<a
 							href='https://yandex.ru/maps/36/stavropol/?utm_medium=mapframe&utm_source=maps'
