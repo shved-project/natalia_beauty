@@ -1,3 +1,4 @@
+import Footer from "./ui/global-sections/Footer";
 import Header from "./ui/global-sections/Header";
 import AboutMe from "./ui/home/AboutMe";
 import Advantages from "./ui/home/Advantages";
@@ -16,6 +17,7 @@ export default function Home() {
 				<Discount />
 				<Price />
 			</main>
+			<Footer />
 		</>
 	);
 }
